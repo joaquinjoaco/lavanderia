@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lavandería Laundrify</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="spinner.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fonts/Metropolis-Regular.woff" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <!-- end-Favicon -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body>
+    <div class="top"></div>
+    <div class="spinner-wrapper">
+      <div class="spinner"><img class="spinner" src="logo.svg" /></div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <!-- <img id="logo" src="logo.svg" /> -->
+        <a href="/index.html" id="navbar__logo"><img id="logo" src="logo.svg" />Laundrify</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#top" class="navbar__links" id="home-page">Inicio</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#aboutus" class="navbar__links" id="about">Nosotros</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Servicios</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="https://api.whatsapp.com/send?phone=+59891683373" target="_blank" class="button" id="signup">Whatsapp</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Liberamos tu <span>tiempo</span></h1>
+        <p class="hero__description">Dando felicidad a través de la limpieza</p>
+        <button class="main__btn" onClick="window.location.href='#services'">
+          <a href="#services">Ver servicios</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- <div class="sectionDivider"></div> -->
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Retiros y envíos sin cargo</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Lavado y secado</h2>
+          <p>Desde $200</p>
+          <div class="services__btn">
+            <button onClick="window.location.href='https://api.whatsapp.com/send?phone=+59891683373'"><a href="https://api.whatsapp.com/send?phone=+59891683373">¡Quiero!</a></button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Acolchados</h2>
+          <p>Desde $350</p>
+          <div class="services__btn">
+            <button onClick="window.location.href='https://api.whatsapp.com/send?phone=+59891683373'"><a href="https://api.whatsapp.com/send?phone=+59891683373">¡Quiero!</a></button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Alfombras</h2>
+          <p>Consultar por m2</p>
+          <div class="services__btn">
+            <button onClick="window.location.href='https://api.whatsapp.com/send?phone=+59891683373'"><a href="https://api.whatsapp.com/send?phone=+59891683373">¡Quiero!</a></button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Cortinas</h2>
+          <p>Consultar por m2</p>
+          <div class="services__btn">
+            <button onClick="window.location.href='https://api.whatsapp.com/send?phone=+59891683373'"><a href="https://api.whatsapp.com/send?phone=+59891683373">¡Quiero!</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="aboutus">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-1">
+            <!-- <img src="logo.svg" id="logoLaundry" alt="Laundrify" /> -->
+          </div>
+        </div>
+
+        <div class="main__content">
+          <h1>¿Como lo hacemos?</h1>
+          <h2>Cuidamos cada detalle.</h2>
+          <p>Tu ropa está en buenas manos</p>
+
+          <!-- <button class="main__btn" onClick="window.location.href='#'">
+            <a href="#">Contactanos</a>
+          </button> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>TU ROMPA LIMPIA Y PERFUMADA,</h1>
+          <h2>TU TIEMPO LIBRE.</h2>
+          <p>Nosotros lo hacemos, ¡contactanos!</p>
+          <!-- <button class="main__btn" onClick="window.location.href='#'">
+            <a href="#">Testimonios</a>
+          </button> -->
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <!-- el wrapper por alguna razon solo sirve con dos footer__link--wraper -->
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Servicios</h2>
+            <a href="#services">Lavado y secado</a> <a href="#services">Acolchados</a> <a href="#services">Alfombras</a> <a href="#services">Cortinas</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contacto</h2>
+            <a href="https://api.whatsapp.com/send?phone=+59891683373" target="_blank">091 683 373</a>
+          </div>
+        </div>
+
+        <div class="footer__link--wrapper">
+          <!-- <div class="footer__link--items">
+            <h2>Contenido</h2>
+            <a href="/">Ver videos</a> <a href="/">Ver fotos</a>
+            <a href="/">Promociones</a>
+          </div> -->
+          <div class="footer__link--items">
+            <h2>Redes Sociales</h2>
+            <a href="https://www.instagram.com/laundrify.uy/">Instagram</a>
+            <a href="/">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">Laundrify</a>
+          </div>
+          <!-- <p class="website__rights">© Laundrify 2022. Todos los derechos reservados.</p> -->
+          <div class="social__icons">
+            <a href="/" class="social__icons--link" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/laundrify.uy/" class="social__icons--link" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      ScrollReveal().reveal(".hero");
+      ScrollReveal().reveal(".services h1");
+      ScrollReveal().reveal(".services__card");
+      ScrollReveal().reveal(".main__img--container");
+      ScrollReveal().reveal(".main__content");
+      ScrollReveal().reveal(".navbar");
+    </script>
+
+    <script src="app.js"></script>
+    <script src="spinner.js"></script>
+  </body>
+</html>
